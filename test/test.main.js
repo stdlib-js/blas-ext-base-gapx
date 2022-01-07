@@ -22,7 +22,7 @@
 
 var tape = require( 'tape' );
 var Float64Array = require( '@stdlib/array-float64' );
-var gapx = require( './../lib/gapx.js' );
+var gapx = require( './../lib' );
 
 
 // TESTS //
