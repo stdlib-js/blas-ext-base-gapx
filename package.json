@@ -1,7 +1,7 @@
 {
   "name": "@stdlib/blas-ext-base-gapx",
   "version": "0.2.2",
-  "description": "Add a constant to each element in a strided array.",
+  "description": "Add a scalar constant to each element in a strided array.",
   "license": "Apache-2.0",
   "author": {
     "name": "The Stdlib Authors",
@@ -37,6 +37,7 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
+    "@stdlib/strided-base-stride2offset": "^0.1.0",
     "@stdlib/types": "^0.4.3",
     "@stdlib/utils-define-nonenumerable-read-only-property": "^0.2.2"
   },
@@ -44,8 +45,8 @@
     "@stdlib/array-float64": "^0.2.2",
     "@stdlib/math-base-assert-is-nan": "^0.2.2",
     "@stdlib/math-base-special-pow": "^0.3.0",
-    "@stdlib/math-base-special-round": "^0.3.0",
-    "@stdlib/random-base-randu": "^0.2.1",
+    "@stdlib/random-array-discrete-uniform": "^0.2.1",
+    "@stdlib/random-array-uniform": "^0.2.1",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
     "tap-min": "git+https://github.com/Planeshifter/tap-min.git",

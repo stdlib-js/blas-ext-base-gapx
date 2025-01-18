@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-12-23)
+## Unreleased (2025-01-18)
 
 <section class="commits">
 
@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`8e4ef81`](https://github.com/stdlib-js/stdlib/commit/8e4ef81d340f7a9ab87b23569f05496ff070f8cb) - **refactor:** update `blas/ext/base/gapx` to follow current project conventions [(#4347)](https://github.com/stdlib-js/stdlib/pull/4347) _(by Muhammad Haris)_
 -   [`c322b66`](https://github.com/stdlib-js/stdlib/commit/c322b6647751b73a9d0fe12bf5665e8e2243d4ca) - **docs:** update related packages sections [(#4070)](https://github.com/stdlib-js/stdlib/pull/4070) _(by stdlib-bot, Philipp Burckhardt)_
 
 </details>
@@ -24,8 +25,9 @@
 
 ### Contributors
 
-A total of 1 person contributed to this release. Thank you to this contributor:
+A total of 2 people contributed to this release. Thank you to the following contributors:
 
+-   Muhammad Haris
 -   Philipp Burckhardt
 
 </section>
