@@ -139,6 +139,7 @@ gapx.ndarray( 3, 5.0, x, 1, x.length-3 );
 ## Notes
 
 -   If `N <= 0`, both functions return `x` unchanged.
+-   Both functions support array-like objects having getter and setter accessors for array element access (e.g., [`@stdlib/array-base/accessor`][@stdlib/array/base/accessor])
 -   Depending on the environment, the typed versions ([`dapx`][@stdlib/blas/ext/base/dapx], [`sapx`][@stdlib/blas/ext/base/sapx], etc.) are likely to be significantly more performant.
 
 </section>
@@ -258,6 +259,8 @@ Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 [mdn-array]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array
 
 [mdn-typed-array]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypedArray
+
+[@stdlib/array/base/accessor]: https://github.com/stdlib-js/array-base-accessor
 
 <!-- <related-links> -->
 

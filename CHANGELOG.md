@@ -4,7 +4,17 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-01-18)
+## Unreleased (2025-02-02)
+
+<section class="features">
+
+### Features
+
+-   [`6af5789`](https://github.com/stdlib-js/stdlib/commit/6af5789d1be31cb3c5be066d742f3bd924ca705d) - add accessor arrays support to `blas/ext/base/gapx` [(#4926)](https://github.com/stdlib-js/stdlib/pull/4926)
+
+</section>
+
+<!-- /.features -->
 
 <section class="commits">
 
@@ -12,6 +22,7 @@
 
 <details>
 
+-   [`6af5789`](https://github.com/stdlib-js/stdlib/commit/6af5789d1be31cb3c5be066d742f3bd924ca705d) - **feat:** add accessor arrays support to `blas/ext/base/gapx` [(#4926)](https://github.com/stdlib-js/stdlib/pull/4926) _(by Muhammad Haris, Athan Reines)_
 -   [`8e4ef81`](https://github.com/stdlib-js/stdlib/commit/8e4ef81d340f7a9ab87b23569f05496ff070f8cb) - **refactor:** update `blas/ext/base/gapx` to follow current project conventions [(#4347)](https://github.com/stdlib-js/stdlib/pull/4347) _(by Muhammad Haris)_
 -   [`c322b66`](https://github.com/stdlib-js/stdlib/commit/c322b6647751b73a9d0fe12bf5665e8e2243d4ca) - **docs:** update related packages sections [(#4070)](https://github.com/stdlib-js/stdlib/pull/4070) _(by stdlib-bot, Philipp Burckhardt)_
 
@@ -25,8 +36,9 @@
 
 ### Contributors
 
-A total of 2 people contributed to this release. Thank you to the following contributors:
+A total of 3 people contributed to this release. Thank you to the following contributors:
 
+-   Athan Reines
 -   Muhammad Haris
 -   Philipp Burckhardt
 

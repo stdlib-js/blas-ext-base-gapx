@@ -1,7 +1,10 @@
-"use strict";var v=function(i,r){return function(){return r||i((r={exports:{}}).exports,r),r.exports}};var s=v(function(k,a){
-var o=5;function g(i,r,e,n,d){var t,f,u;if(i<=0||r===0)return e;if(t=d,n===1){if(f=i%o,f>0)for(u=0;u<f;u++)e[t]+=r,t+=n;if(i<o)return e;for(u=f;u<i;u+=o)e[t]+=r,e[t+1]+=r,e[t+2]+=r,e[t+3]+=r,e[t+4]+=r,t+=o;return e}for(u=0;u<i;u++)e[t]+=r,t+=n;return e}a.exports=g
-});var q=v(function(w,c){
-var m=require('@stdlib/strided-base-stride2offset/dist'),M=s();function O(i,r,e,n){return M(i,r,e,n,m(i,n))}c.exports=O
-});var R=require('@stdlib/utils-define-nonenumerable-read-only-property/dist'),y=q(),b=s();R(y,"ndarray",b);module.exports=y;
+"use strict";var f=function(s,e){return function(){return e||s((e={exports:{}}).exports,e),e.exports}};var g=f(function(D,y){
+function k(s,e,r,u,n){var t,a,o,i,v;for(t=r.data,a=r.accessors[0],o=r.accessors[1],i=n,v=0;v<s;v++)o(t,i,e+a(t,i)),i+=u;return r}y.exports=k
+});var q=f(function(E,b){
+var M=require('@stdlib/array-base-arraylike2object/dist'),O=g(),c=5;function P(s,e,r,u,n){var t,a,o,i;if(s<=0||e===0)return r;if(o=M(r),o.accessorProtocol)return O(s,e,o,u,n);if(t=n,u===1){if(a=s%c,a>0)for(i=0;i<a;i++)r[t]+=e,t+=u;if(s<c)return r;for(i=a;i<s;i+=c)r[t]+=e,r[t+1]+=e,r[t+2]+=e,r[t+3]+=e,r[t+4]+=e,t+=c;return r}for(i=0;i<s;i++)r[t]+=e,t+=u;return r}b.exports=P
+});var m=f(function(F,d){
+var R=require('@stdlib/strided-base-stride2offset/dist'),w=q();function z(s,e,r,u){return w(s,e,r,u,R(s,u))}d.exports=z
+});var A=require('@stdlib/utils-define-nonenumerable-read-only-property/dist'),j=m(),B=q();A(j,"ndarray",B);module.exports=j;
+/** @license Apache-2.0 */
 /** @license Apache-2.0 */
 //# sourceMappingURL=index.js.map
