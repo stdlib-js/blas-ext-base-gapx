@@ -2,9 +2,9 @@
 
 > Package changelog.
 
-<section class="release" id="unreleased">
+<section class="release" id="v0.3.0">
 
-## Unreleased (2025-05-19)
+## 0.3.0 (2026-01-31)
 
 <section class="features">
 
@@ -22,6 +22,8 @@
 
 <details>
 
+-   [`2035f34`](https://github.com/stdlib-js/stdlib/commit/2035f344a1a469278042b7532f034dc6119933b3) - **docs:** add function documentation _(by Athan Reines)_
+-   [`3e9f3a0`](https://github.com/stdlib-js/stdlib/commit/3e9f3a0bdc4c231521f39148dbff889815bae6d7) - **docs:** fix missing period _(by Athan Reines)_
 -   [`b090b90`](https://github.com/stdlib-js/stdlib/commit/b090b90935fa0b18e554bf98a4ed0c2f7c51ec33) - **docs:** update related packages sections [(#5253)](https://github.com/stdlib-js/stdlib/pull/5253) _(by stdlib-bot)_
 -   [`6af5789`](https://github.com/stdlib-js/stdlib/commit/6af5789d1be31cb3c5be066d742f3bd924ca705d) - **feat:** add accessor arrays support to `blas/ext/base/gapx` [(#4926)](https://github.com/stdlib-js/stdlib/pull/4926) _(by Muhammad Haris, Athan Reines)_
 -   [`8e4ef81`](https://github.com/stdlib-js/stdlib/commit/8e4ef81d340f7a9ab87b23569f05496ff070f8cb) - **refactor:** update `blas/ext/base/gapx` to follow current project conventions [(#4347)](https://github.com/stdlib-js/stdlib/pull/4347) _(by Muhammad Haris)_
