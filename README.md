@@ -42,13 +42,13 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import gapx from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-gapx@esm/index.mjs';
+import gapx from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-gapx@v0.3.1-esm/index.mjs';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { ndarray } from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-gapx@esm/index.mjs';
+import { ndarray } from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-gapx@v0.3.1-esm/index.mjs';
 ```
 
 #### gapx( N, alpha, x, strideX )
@@ -147,7 +147,7 @@ gapx.ndarray( 3, 5.0, x, 1, x.length-3 );
 <script type="module">
 
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@esm/index.mjs';
-import gapx from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-gapx@esm/index.mjs';
+import gapx from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-gapx@v0.3.1-esm/index.mjs';
 
 var x = discreteUniform( 10, -100, 100, {
     'dtype': 'float64'
