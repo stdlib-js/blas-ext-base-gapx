@@ -1,4 +1,4 @@
-"use strict";var f=function(s,e){return function(){return e||s((e={exports:{}}).exports,e),e.exports}};var g=f(function(D,y){
+"use strict";var f=function(s,e){return function(){try{return e||s((e={exports:{}}).exports,e),e.exports}catch(r){throw (e=0, r)}};};var g=f(function(D,y){
 function k(s,e,r,u,n){var t,a,o,i,v;for(t=r.data,a=r.accessors[0],o=r.accessors[1],i=n,v=0;v<s;v++)o(t,i,e+a(t,i)),i+=u;return r}y.exports=k
 });var q=f(function(E,b){
 var M=require('@stdlib/array-base-arraylike2object/dist'),O=g(),c=5;function P(s,e,r,u,n){var t,a,o,i;if(s<=0||e===0)return r;if(o=M(r),o.accessorProtocol)return O(s,e,o,u,n);if(t=n,u===1){if(a=s%c,a>0)for(i=0;i<a;i++)r[t]+=e,t+=u;if(s<c)return r;for(i=a;i<s;i+=c)r[t]+=e,r[t+1]+=e,r[t+2]+=e,r[t+3]+=e,r[t+4]+=e,t+=c;return r}for(i=0;i<s;i++)r[t]+=e,t+=u;return r}b.exports=P
